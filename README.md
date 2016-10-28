@@ -1,11 +1,13 @@
 
 
-# Dueling Network code for LIS ver2
+# Minimum convLSTM demo
 
-This software is a python implementation of Dueling Network for LIS ver2.
+This software is a python implementation of convLSTM.
 
-To implement Dueling Network with LIS, copy these files to gym_client/examples/agents/ root.
+convLSTM is the deep learning model presented by X. Shi, et al.
+https://arxiv.org/abs/1506.04214
 
-This Dueling Network code does'nt implement prioritized replay, double-DQN, etc.
+To implement this, change the parameters and data directory to suitable that.
 
-Requirement and 'how to run' is equivalent to LIS ver2.
+Note that this convLSTM code does'nt implement peephole connection.
+
